@@ -6,5 +6,17 @@
 
 function reOrderArray($array)
 {
-    // write code here
+    $odd = array();//奇数
+    $even = array();//偶数
+    foreach($array as $num){
+        if($num % 2){
+            $odd[] = $num;
+        }else{
+            $even[] = $num;
+        }
+    }
+    return array_merge($odd,$even);
 }
+
+// 运行时间：13ms
+// 占用内存：3724k
