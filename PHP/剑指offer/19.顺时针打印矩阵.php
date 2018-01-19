@@ -7,5 +7,15 @@
 
 function printMatrix($matrix)
 {
-    // write code here
+    $arr = array();
+    $len = count($matrix);
+    for($i = 1;$i<$len;$i++){
+        $index = $i - $n;
+        if($i - $n<0){//第一行
+            $index = $i;
+        }else{
+            $index = 
+        }
+    }
 }
+//https://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?tpId=13&tqId=11172&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking
